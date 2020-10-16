@@ -12,7 +12,7 @@
     - name: Ensure Apache is installed.
       yum: 
         name: httpd
-        state: absent
+        state: installed
 
     - name: Copy test config file.
       copy:
